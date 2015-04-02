@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dice</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="diceResult1">One</string>
+    <string name="diceResult2">Two</string>
+    <string name="diceResult3">Three</string>
+    <string name="diceResult4">VictoryPoints</string>
+    <string name="diceResult5">Energy</string>
+    <string name="diceResult6">Heal</string>
+    <string name="rollButton">Roll!</string>
+    <string name="defaultButtonMessage">Keep</string>
+    <string name="DefaultDiceMessage">Roll Dice</string>
+    <string name="turnNumber">Small Text</string>
+</resources>
