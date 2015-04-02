@@ -23,9 +23,9 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //START here
 
-        numRolls = 0;
+
+        //START here
         diceResults.add((TextView) findViewById(R.id.firstResult));
         diceResults.add((TextView) findViewById(R.id.secondResult));
         diceResults.add((TextView) findViewById(R.id.thirdResult));
@@ -38,6 +38,14 @@ public class MainActivity extends ActionBarActivity {
         diceButtons.add((Button) findViewById(R.id.fourthButton));
         diceButtons.add((Button) findViewById(R.id.fifthButton));
         diceButtons.add((Button) findViewById(R.id.sixthButton));
+
+        ArrayList<String> currentTurn = turn();
+
+    }
+
+    public ArrayList<String> turn(){
+        numRolls = 0;
+
         for (int i = 0; i < 6; i++) {
             diceHold.add(false);
         }
@@ -80,8 +88,8 @@ public class MainActivity extends ActionBarActivity {
         for(int i = 0; i <diceHold.size();i++) {
             keepButtons(i);
         }
+        return null;
     }
-
     public void keepButtons(final int index){
         Button temp = diceButtons.get(index);
         temp.setOnClickListener(
