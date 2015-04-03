@@ -13,4 +13,9 @@
     <string name="defaultButtonMessage">Keep</string>
     <string name="DefaultDiceMessage">Roll Dice</string>
     <string name="turnNumber">Small Text</string>
+    <string name="Player">Player</string>
+    <string name="pointsHeader">Victory Points</string>
+    <string name="HealthHeader">Health</string>
+    <string name="playerTwoName">P2</string>
+    <string name="playerOneName">P1</string>
 </resources>
